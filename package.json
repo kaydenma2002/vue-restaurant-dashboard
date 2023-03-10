@@ -1,0 +1,54 @@
+{
+  "name": "swing",
+  "version": "0.0.4",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@mdi/font": "7.0.96",
+    "axios": "^1.3.3",
+    "chart.js": "^4.1.1",
+    "commitizen": "^4.3.0",
+    "core-js": "^3.8.3",
+    "flowbite": "^1.6.3",
+    "glob-parent": ">=5.1.2",
+    "husky": "^8.0.3",
+    "laravel-echo": "^1.15.0",
+    "pusher-js": "^8.0.1",
+    "roboto-fontface": "*",
+    "sweetalert2": "^11.7.3",
+    "trim": ">=0.0.3",
+    "trim-newlines": ">=3.0.1",
+    "vue": "^3.2.13",
+    "vue-chartjs": "^5.1.0",
+    "vue-router": "^4.0.0",
+    "vuetify": "^3.0.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "glob-parent": ">=5.1.2",
+    "postcss": "^8.4.21",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.2.7",
+    "trim": ">=0.0.3",
+    "trim-newlines": ">=3.0.1",
+    "vite": "^3.1.9",
+    "vite-plugin-vuetify": "^1.0.0-alpha.12",
+    "vue-loader": "^16.8.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
