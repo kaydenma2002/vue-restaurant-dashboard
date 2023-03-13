@@ -102,6 +102,7 @@ export default {
         })
         this.channel = this.echo.channel('reservation')
         this.channel.listen('ReservationBooked', (data) => {
+            this.$notifications++
             Swal.fire({
                 position: 'top-end',
                 icon: 'success',

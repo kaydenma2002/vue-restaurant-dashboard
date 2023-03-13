@@ -7,6 +7,14 @@ import { defineConfig } from 'vite'
 import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
+const { createServer } = require('vite')
+const { readFileSync } = require('fs')
+
+const sslCertificate = {
+  key: readFileSync('./domain.pem'),
+  cert: readFileSync('./certificate.pem')
+}
+
 export default defineConfig({
   plugins: [
     vue({ 
@@ -36,6 +44,7 @@ export default defineConfig({
     ],
   },
   server: {
+    https: sslCertificate,
     port: 3000,
   },
 })

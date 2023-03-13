@@ -17,7 +17,7 @@
 
 <script>
 import titlebarComponent from '@/components/titlebar/titlebar-component.vue';
-import tableUser from '@/components/table/table-use.vue';
+import tableUser from '@/components/table/table-user.vue';
 import myFooter from '@/components/footer/footer-component.vue';
 export default {
     components: {
